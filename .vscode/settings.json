@@ -2,6 +2,12 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "e:\\APPDEVPOTA\\mysql-connector-j-8.0.32\\mysql-connector-j-8.0.32.jar",
-        "e:\\APPDEVPOTA\\mysql-connector-java-5.1.25.jar"
+        "e:\\APPDEVPOTA\\mysql-connector-java-5.1.25.jar",
+        "e:\\APPDEVPOTA\\lib\\jcalendar-1.4.jar",
+        "e:\\APPDEVPOTA\\lib\\jgoodies-common-1.2.0.jar",
+        "e:\\APPDEVPOTA\\lib\\jgoodies-looks-2.4.1.jar",
+        "e:\\APPDEVPOTA\\lib\\junit-4.6.jar",
+        "d:\\Users\\kwaks\\Desktop\\mysql-connector-java-5.1.47.jar",
+        "d:\\Users\\kwaks\\Desktop\\jcalendar-1.4.jar"
     ]
 }

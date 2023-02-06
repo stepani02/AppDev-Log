@@ -43,14 +43,14 @@ public class LoginForm extends JFrame {
 
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO Auto-generated method stub
+                
                 String email = tfEmail.getText();
                 String password = String.valueOf(pfPassword.getPassword());
 
                 User user = getAuthenticatedUser(email, password);
 
                 if (user != null) {
-                    SelectRoomDate form = new SelectRoomDate();
+                    selectroomANDdate form = new selectroomANDdate();
                     form.setVisible(true);
                     form.pack();
                     form.setLocationRelativeTo(null);
@@ -133,7 +133,7 @@ public class LoginForm extends JFrame {
             conn.close();
 
         }catch(Exception e){
-            System.out.println("Database connexion failed!");
+            System.out.println("Database connection failed!");
         }
 
 
